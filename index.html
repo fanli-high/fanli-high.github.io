@@ -180,7 +180,7 @@ footer .wrap.fine{display:block;border-top:1px solid rgba(255,255,255,.12);paddi
   .hero{background:var(--brand)}
   .hero .wrap{padding-bottom:24px}
   .quick{grid-template-columns:repeat(4,1fr)}
-  .sidenav{position:static}
+  .sidenav{position:static;order:2}
   footer .wrap{grid-template-columns:1fr}
 }
 @media (max-width:720px){
@@ -191,6 +191,8 @@ footer .wrap.fine{display:block;border-top:1px solid rgba(255,255,255,.12);paddi
   .mainnav.show .wrap{display:flex}
   .panel{position:static;box-shadow:none;border:0;border-left:3px solid var(--gold);min-width:0;grid-template-columns:1fr 1fr;padding:4px 8px 10px}
   .crest b{font-size:24px}
+  .crest svg{width:48px;height:48px}
+  .crest small{font-size:9.5px;letter-spacing:1px}
   .virtue b{font-size:30px}
   .news li{grid-template-columns:auto minmax(0,1fr);gap:4px 10px}
   .news li a{grid-column:1/-1}
